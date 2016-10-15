@@ -36,7 +36,7 @@
 						<div class="module left">
 							<ul class="menu">
 								<li>
-									<a href="#">About</a>
+									<a href="#about">About</a>
 								</li>
 								<li>
 									<a href="#">Succulents</a>
@@ -45,10 +45,10 @@
 									<a href="#">Care Guide</a>
 								</li>
 								<li>
-									<a href="#">FAQ&nbsp;</a>
+									<a href="#faq">FAQ</a>
 								</li>
 								<li>
-									<a href="#">Contact</a>
+									<a href="#contact">Contact</a>
 								</li>
 
 
@@ -74,7 +74,7 @@
 				<div class="container v-align-transform">
 					<div class="row">
 						<div class="col-sm-12">
-							<h1 class="thin mb0 large bold text-center">Tricia's Gardens.<br></h1>
+							<h1 class="mb0 large bold text-center">Tricia's Gardens.<br></h1>
 						</div>
 					</div>
 
@@ -109,7 +109,7 @@
 
 			<!-- INTRO SECTION ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
 			<section>
-				<div class="container">
+				<div class="container" id="about">
 					<div class="row mb64 mb-xs-24">
 						<div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
 							<h3>Tricia's Gardens creates custom, unique and &nbsp;beautiful succulent plant
@@ -294,7 +294,7 @@
 			</section>
 
 			<!-- FAQ TABS SECTION –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
-			<section class="hidden-xs">
+			<section class="hidden-xs bg-secondary" id="faq">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
@@ -371,7 +371,7 @@
 			</section>
 
 			<!-- CONTACT SECTION (FORM AND DETAILS) –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
-			<section>
+			<section id="contact">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6 col-md-5">
@@ -401,7 +401,6 @@
 					</div>
 
 				</div>
-
 			</section>
 
 
@@ -455,6 +454,23 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/smooth-scroll.min.js"></script>
 		<script src="js/parallax.js"></script>
+		<!-- Smooth scroll between link anchors ... -->
+		<script>
+			$(function() {
+				$('a[href*="#"]:not([href="#"])').click(function() {
+					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+						var target = $(this.hash);
+						target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+						if (target.length) {
+							$('html, body').animate({
+								scrollTop: target.offset().top
+							}, 1000);
+							return false;
+						}
+					}
+				});
+			});
+		</script>
 		<script src="js/scripts.js"></script>
 	</body>
 </html>

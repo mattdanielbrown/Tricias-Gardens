@@ -1,6 +1,11 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
 
 #main-page-header-title {
+    /*-webkit-font-smoothing: antialiased;*/
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+
     text-align: center !important;
     margin: auto !important;
 }
