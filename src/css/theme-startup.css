@@ -370,31 +370,31 @@ h6,
     font-weight: 700;
   }
 }
-.uppercase {
+.none {
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: none;
 }
-h1.uppercase {
+h1.none {
   letter-spacing: 17px;
   margin-right: -17px;
 }
-h2.uppercase {
+h2.none {
   letter-spacing: 10px;
   margin-right: -10px;
 }
-h3.uppercase {
+h3.none {
   letter-spacing: 6px;
   margin-right: -6px;
 }
-h4.uppercase {
+h4.none {
   letter-spacing: 3px;
   margin-right: -3px;
 }
-h5.uppercase {
+h5.none {
   letter-spacing: 2px;
   margin-right: -2px;
 }
-h6.uppercase,
+h6.none,
 .h6-u {
   letter-spacing: 2px;
   font-weight: 700;
@@ -404,7 +404,7 @@ h6.uppercase,
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   font-weight: 700;
 }
@@ -470,7 +470,7 @@ a:hover {
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -692,7 +692,7 @@ footer.bg-dark li,
   display: none;
 }
 .background-multiply .background-image-holder {
-  background-color: #5edcd0 !important;
+  background-color: #193b37 !important;
   background-blend-mode: multiply;
 }
 .background-image-holder.fadeIn {
@@ -731,7 +731,7 @@ footer.bg-dark li,
   line-height: 36px;
   font-size: 12px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px;
   border-radius: 0;
   color: #5edcd0;
@@ -952,7 +952,7 @@ nav.bg-dark .logo-dark {
 }
 .menu li a {
   font-size: 11px;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: 600;
   letter-spacing: 1px;
   color: #292929;
@@ -1061,7 +1061,7 @@ nav.bg-dark .logo-dark {
   color: #fff;
   display: inline-block;
   padding: 6px 24px;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 11px;
   font-weight: 600;
 }
@@ -1131,7 +1131,7 @@ nav.nav-centered .module.widget-handle {
 .module.widget-handle .title {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 11px;
   font-weight: 600;
   display: none;
@@ -1717,7 +1717,7 @@ input[type="password"] {
 .input-with-label span {
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 11px;
-  text-transform: uppercase;
+  text-transform: none;
   color: #292929;
   letter-spacing: 1px;
   font-weight: 700;
@@ -1765,28 +1765,28 @@ textarea:focus {
   outline: 1px solid #ccc;
 }
 ::-webkit-input-placeholder {
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: bold;
   letter-spacing: 1px;
   color: #777;
   font-size: 11px;
 }
 :-moz-placeholder {
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: bold;
   letter-spacing: 1px;
   color: #777;
   font-size: 11px;
 }
 ::-moz-placeholder {
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: bold;
   letter-spacing: 1px;
   color: #777;
   font-size: 11px;
 }
 :-ms-input-placeholder {
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: bold;
   letter-spacing: 1px;
   color: #777;
@@ -1817,7 +1817,7 @@ button[type="submit"] {
   color: #fff;
   width: 100%;
   font-size: 11px;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: bold;
   letter-spacing: 1px;
   border-radius: 0 !important;
@@ -1880,7 +1880,7 @@ select {
   padding-left: 20px;
   position: relative;
   font-size: 11px;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: bold;
   letter-spacing: 1px;
   color: #777;
@@ -2150,7 +2150,7 @@ button[type="submit"] .form-loading {
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   font-weight: 700;
 }
@@ -2265,7 +2265,7 @@ button[type="submit"] .form-loading {
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   font-weight: 700;
 }
@@ -2353,7 +2353,7 @@ button[type="submit"] .form-loading {
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   font-weight: 700;
 }
@@ -2432,7 +2432,7 @@ button[type="submit"] .form-loading {
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   font-weight: 700;
 }
@@ -2481,7 +2481,7 @@ button[type="submit"] .form-loading {
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   font-weight: 700;
   font-size: 11px;
@@ -2497,7 +2497,7 @@ button[type="submit"] .form-loading {
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   font-weight: 700;
   display: inline-block;
@@ -2539,7 +2539,7 @@ button[type="submit"] .form-loading {
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   font-weight: 700;
   font-size: 11px;
@@ -2918,7 +2918,7 @@ button[type="submit"] .form-loading {
   font-size: 12px;
   line-height: 24px;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   font-weight: 700;
   margin-bottom: 12px;
@@ -3701,7 +3701,7 @@ img {
 /*!---------- 26. SHOP ----------*/
 .product-single .image-slider .label {
   font-size: 12px;
-  text-transform: uppercase ;
+  text-transform: none ;
   position: absolute;
   z-index: 3;
   top: 16px;
@@ -4556,7 +4556,7 @@ video {
   line-height: 36px;
   font-size: 12px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px;
   border-radius: 0;
   color: #5edcd0;
@@ -4714,7 +4714,7 @@ section + .portfolio-pullup {
   font-size: 56px;
   line-height: 64px;
   font-weight: 100;
-  text-transform: uppercase;
+  text-transform: none;
 }
 .image-bg .countdown {
   color: #fff;
